@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="body">
+  <div class="weather-container">
+  <h1>SkySnap byemaan</h1>
+  <div class="search-box">
+    <input type="text" id="city-input" placeholder="Enter city name:" />
+      <button id="search-button" type="button">Search</button>
+  </div>
+  <div id="loader" class="hidden"></div>
+  <p id="error-message" class="error-message"></p>
+<img id="weather-icon" class="hidden" src="" alt="Weather Icon" />
+  <div id="weather-results" class="weather-results">
+    <h2 id="city-name"></h2>
+    <p id="temperature">Temperature: </p>
+    <p id="condition">Condition: </p>
+    <p id="humidity">Humidity: </p>
+    <p id="wind-speed">Wind Speed: </p>
+</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
